@@ -4,7 +4,8 @@
   "description": "homepage of petter",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "echo \"Deploying homepage!\" && forever start -w index.js"
   },
   "keywords": [
     "home"
