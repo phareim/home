@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "echo \"Deploying homepage!\" && forever start -w index.js"
+    "deploy": "echo \"Deploying homepage!\" && sudo forever start -w index.js"
   },
   "keywords": [
     "home"
